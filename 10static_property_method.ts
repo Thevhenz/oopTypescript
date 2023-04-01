@@ -10,8 +10,12 @@ class Chicken {
   }
 }
 
-console.log(Chicken.walking());
-
 let chicken = new Chicken();
+console.log(Chicken.walking());
+chicken.getLegs();
 
+Chicken.legs = 4;
+
+let chicken2 = new Chicken();
+console.log(Chicken.walking());
 chicken.getLegs();
